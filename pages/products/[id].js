@@ -7,7 +7,7 @@ const id = ({data}) => {
         
     
 
-        const  {id} = router.query
+       
        
     return (
         <div className='min-h-screen w-full' >
