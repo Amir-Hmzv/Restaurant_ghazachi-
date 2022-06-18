@@ -5,7 +5,7 @@ const id = ({data}) => {
    
         
         
-    c
+    
 
         const  {id} = router.query
        
