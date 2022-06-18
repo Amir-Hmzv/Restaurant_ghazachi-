@@ -5,7 +5,7 @@ import Ham from '../public/Ham.png'
 import burger from '../public/burger.png'
 import {MdOutlineKeyboardArrowLeft} from 'react-icons/md'
 
-import {Barbecue,FastFoodX,Meal,Pizza,Drink} from './TabsIcon'
+import {Barbecue,FastFoodX,Meal,Pizza,FastFoodY} from './TabsIcon'
 import TabsPanel from './TabsPanel';
 import { useRouter } from 'next/router';
 const ServeSection = ({props,ref}) => {
@@ -21,7 +21,7 @@ const ServeSection = ({props,ref}) => {
           <FastFoodX  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>برگر</FastFoodX>
           <Meal  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'><span className='  whitespace-'>پیش غذا</span></Meal>
           <Pizza  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>پیتزا </Pizza>
-          <Drink  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>نوشیدنی </Drink>
+          <FastFoodY  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>نوشیدنی </FastFoodY>
           <Meal  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>سالاد </Meal>
           <Barbecue  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>دسر</Barbecue>
         </TabList>

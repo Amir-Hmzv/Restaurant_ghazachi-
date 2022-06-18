@@ -1,12 +1,11 @@
 import React from 'react';
-import {useRouter} from 'next/router'
 import Product from '../../components/Product';
 const id = ({data}) => {
     
    
         
         
-    const router = useRouter()
+    c
 
         const  {id} = router.query
        
