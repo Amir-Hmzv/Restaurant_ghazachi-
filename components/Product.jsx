@@ -39,13 +39,13 @@ const Product = ({ data }) => {
         
       </div>
 
-      <div className= " flex flex-col justify-center items-center lg:flex-row space-y-5 md:justify-around lg:justify-between    px-10 max-w-[80%] 2xl:max-w-[80%] lg:max-w-[100%] mx-auto mt-16">
-      <div className=" space-y-5  " dir="ltr">
+      <div className= "  flex flex-col justify-center items-center lg:flex-row space-y-5 md:justify-around lg:justify-between    px-10 max-w-[80%] 2xl:max-w-[80%] lg:max-w-[100%] mx-auto mt-16">
+      <div className=" space-y-5 	 mx-auto text-center " dir="ltr">
         <h1 className=" italic font-bold text-center lg:text-right">Explanation about <p className="text-red-400 inline-block  ">{data.strMeal}</p> </h1>
-        <p className="w-[450px] text-[#646363]  line-clamp-5 	 " >{data.strInstructions}</p>
+        <p className=" sm:w-[450px] text-[#646363]  line-clamp-5   " >{data.strInstructions}</p>
       <div className="flex w-full justify-between flex-row-reverse lg:flex-col  lg:space-y-6">
-      <p className="text-center lg:text-right px-4">price : 20000</p>
-        <div className="text-center lg:text-right  px-4  space-x-5   ">
+      <p className="text-center lg:text-right sm:px-4">price : 20000</p>
+        <div className="text-center lg:text-right  px-4  sm:space-x-5 space-x-[5px]     ">
           <button onClick={() => dispatch(increment())} className="bg-green-500 p-2 rounded-md text-[#fff]"><AiOutlinePlus/></button>
           <span>{counter}</span>
           <button onClick={() => dispatch(decrement())}  className="bg-red-500 p-2 rounded-md text-[#fff]"><AiOutlineMinus/></button>

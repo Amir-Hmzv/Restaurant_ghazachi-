@@ -55,7 +55,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav  className={`${shadow  ? `  fixed   transition-all duration-300 ease-out  w-full h-[7vh] shadow-xl shadow-[#dfd5cf] bg-[#F6E4D9] z-[20]  flex items-center  ` : ` z-[20] fixed  w-full  h-[7vh ${state && `shadow-xl shadow-[#dfd5cf] bg-[#F6E4D9]` }   flex items-center  `}    `}>
+      <nav  className={`${shadow  ? `  fixed   transition-all duration-300 ease-out  w-full h-[7vh] shadow-xl shadow-[#dfd5cf] bg-[#F6E4D9] z-[31]  flex items-center  ` : ` z-[31] fixed  w-full  h-[7vh ${state && `shadow-xl shadow-[#dfd5cf] bg-[#F6E4D9]` }   flex items-center  `}    `}>
         <div className="flex justify-between w-full p-4 sm:p-4  2xl:px-16  ">
           <div>
             <ul className=" w-full h-full justify-center items-start space-x-8  md:space-x-12 italic px-5   text-[#363636] hidden lg:flex" >
