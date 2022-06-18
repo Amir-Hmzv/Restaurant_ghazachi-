@@ -16,14 +16,14 @@ const ServeSection = ({props,ref}) => {
                   
                 <div className='  w-full mx-auto my-40      '>
                            <Tabs >
-        <TabList borderColor='#f3f3f3' className='  max-w-lg lg:max-w-xl mx-auto'  display='flex' justifyContent='center' >
+        <TabList borderColor='#f3f3f3' className='  max-w-lg lg:max-w-xl mx-auto'   display='flex' justifyContent={'space-between'} flexWrap='wrap'  >
           <Barbecue  padding={'5px'} _focus={{boxShadow:'none',}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>کباب</Barbecue>
           <FastFoodX  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>برگر</FastFoodX>
           <Meal  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'><span className='  whitespace-'>پیش غذا</span></Meal>
           <Pizza  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>پیتزا </Pizza>
           <FastFoodY  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>نوشیدنی </FastFoodY>
           <Meal  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>سالاد </Meal>
-          <Barbecue  _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}} color='##363636'>دسر</Barbecue>
+          <div className='hidden lg:block'><Barbecue   _focus={{boxShadow:'none'}} _selected={{color:'#FF2B00',borderColor:'#FF2B00'}}   color='##363636' >دسر</Barbecue></div>
         </TabList>
       
         <TabPanels  className='   max-w-xl     lg:max-w-[85%] 2xl:max-w-[70%]  mx-auto '   >
