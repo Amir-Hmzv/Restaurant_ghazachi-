@@ -13,7 +13,7 @@ const IntroduceSection = () => {
       <div className="max-w-[1224px]  mx-auto mt-[20rem]  flex flex-col lg:grid  justify-center  lg:grid-cols-2">
         <div className="space-y-8   ">
           <h1 className="font-bold  text-center lg:text-right text-4xl">با غذا چی آشنا شو</h1>
-          <p className="lg:w-[450px]  text-center  text-[#a8a7a7] lg:text-justify leading-[42px]  italic">
+          <p className="px-10 sm:px5 lg:w-[450px]  text-center  text-[#a8a7a7] lg:text-justify leading-[42px]  italic">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
             ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
